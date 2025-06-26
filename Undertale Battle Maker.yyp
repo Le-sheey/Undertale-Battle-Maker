@@ -522,6 +522,7 @@
     {"id":{"name":"scr_change_font","path":"scripts/scr_change_font/scr_change_font.yy",},},
     {"id":{"name":"scr_change_voice","path":"scripts/scr_change_voice/scr_change_voice.yy",},},
     {"id":{"name":"scr_check_color","path":"scripts/scr_check_color/scr_check_color.yy",},},
+    {"id":{"name":"scr_check_newline_star","path":"scripts/scr_check_newline_star/scr_check_newline_star.yy",},},
     {"id":{"name":"scr_check_pause","path":"scripts/scr_check_pause/scr_check_pause.yy",},},
     {"id":{"name":"scr_check_scripts","path":"scripts/scr_check_scripts/scr_check_scripts.yy",},},
     {"id":{"name":"scr_check_shaking","path":"scripts/scr_check_shaking/scr_check_shaking.yy",},},

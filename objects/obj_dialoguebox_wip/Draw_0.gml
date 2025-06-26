@@ -70,8 +70,6 @@ if draw_chara < text_length_temp{
 	chara_counter += text_spd+skip_key_hold*skip_spd*can_skip
 	while chara_counter > 1
 	{chara_counter--
-
-	chara_color[draw_chara] = text_color
 	
 	if !scr_calculate_txt_speed()
 	if !scr_check_scripts()
@@ -83,7 +81,10 @@ if draw_chara < text_length_temp{
 	if !scr_check_shaking()
 	if !scr_check_waving_x()
 	if !scr_check_color()
+	if !scr_check_newline_star()
 	scr_check_waving_y()
+	
+	chara_color[draw_chara+1] = text_color
 	
 	{draw_chara++
 		dialogue_face_image += 0.1
@@ -92,11 +93,11 @@ if draw_chara < text_length_temp{
 		if string_char_at(text_to_draw,draw_chara) = " "
 		audio_stop_sound(current_voice)
 	}}
-	draw_chara = clamp(draw_chara, 0, text_length_temp);}
+	draw_chara = clamp(draw_chara, 0, text_length_temp)}
 }
 else 
 {
-dialogue_face_image = 0
+dialogue_face_image = 0 
 }
 
 
@@ -200,7 +201,7 @@ text_y_temp = 0
 newline_extra_y = 0
 //text_color = temp_color
 
-for(i=0; i<draw_chara; i++) {
+for(i=0; i<draw_chara; i++) {	
 	shake_text = string_copy(text_to_draw, i+1, 1)
 	shake_x = 0
 	shake_y = 0
@@ -229,7 +230,7 @@ for(i=0; i<draw_chara; i++) {
 	else if space_number != 0
 	{
 	text_y_temp++
-	text_x = dialogue_box_x + text_x_offset[page] + border_x + face_width
+	text_x = dialogue_box_x + text_x_offset[page] + border_x + face_width + newline_border_x
 	}
 	}
 	
@@ -237,7 +238,8 @@ for(i=0; i<draw_chara; i++) {
 	{
 	if last_space[text_y_temp] != -1
 	{i = last_space[text_y_temp] - 1
-	space_number = text_y_temp + 1}
+	space_number = text_y_temp + 1
+	}
 	else
 	{
 	newline_extra_y++

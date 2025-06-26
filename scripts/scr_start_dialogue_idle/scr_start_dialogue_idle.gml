@@ -1,4 +1,4 @@
-function scr_start_dialogue_idle(Library,Book,Text_lib_part,Text_speed=0.5,Voice=voice_test,Face=spr_nosprite,
+function scr_start_dialogue_idle(Library,Book,Text_lib_part,Text_speed=0.5,Voice=voice_test,Newline_star = 1,Face=spr_nosprite, 
 Font = fon_determination_sans_web, Color = c_white,
 Can_Walk=0,Can_skip=1,Auto_skip=0,
 Is_shaking = 0,
@@ -34,5 +34,6 @@ Is_shaking = 0,
 	wave_intensity_y = Wave_intensity_y
 	wave_speed_y = Wave_speed_y
 	wave_shortness_y = Wave_shortness_y
+	draw_first_newline_star = Newline_star
 
 }

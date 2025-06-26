@@ -3,7 +3,7 @@ with(obj_dialoguebox_wip)
 {
 if not in_dialogue {
 	
-	scr_start_dialogue_idle(smol_objects_library,0,interact_object.descr_text)
+	scr_start_dialogue_idle(smol_objects_library,0,interact_object.descr_text,0.5,voice_test,0)
 	
 }
 }

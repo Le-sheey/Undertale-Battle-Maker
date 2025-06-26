@@ -1,7 +1,7 @@
 depth = -9998
 
 //this will be the separation vertically between the lines on each texts that is writting on the screen.
-dialogue_sep = 12
+dialogue_sep = 14
 
 //Page is like a book, when you are in a page for example page 1, you read it and go to the next page, the dialogue box is also like this.
 page = 0;
@@ -92,6 +92,8 @@ newline_extra_y = 0
 temp_color = c_white
 chara_color[0] = c_white
 max_lines_on_page = 30
+newline_border_x = 16
+draw_first_newline_star = 1
 for(i = 0; i<max_lines_on_page; i++)
 {
 last_space[i] = -1

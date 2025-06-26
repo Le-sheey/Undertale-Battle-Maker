@@ -50,7 +50,7 @@ test_library =
 	{
 	test:
 			[
-			["Oh, hi there!_pause:30; \nIt's nice to see you in our little Underground._pause:15; \nWe're still in the middle of development so it may look a bit unfinished... _pause:15;","You can't fight or create battles yet, but we're trying to do our best to make it possible.","For now, feel free to explore _color:65535;RUINS_color:16777215; and _color:65535;SNOWDIN_color:16777215; _pause:30; \nMeanwhile, I'll get back to work..."],
+			["Oh, hi there!_pause:30; \nIt's nice to see you in our little Underground.","We're still in the middle of development so it may look a bit unfinished... _pause:15;","You can't fight or create battles yet, but we're trying to do our best to make it possible.","For now, feel free to explore _color:65535;RUINS_color:16777215; and _color:65535;SNOWDIN_color:16777215; _pause:30; \nMeanwhile, I'll get back to work..."],
 			["Yeah,_pause:10; my work is not all about standing out there.","But hey..._pause:30; Somebody has to be here in case you need anything..._pause:15; When you leave this room, I'll get to doing something else..."],
 			["By the way, you need anything?_pause:15; No?_pause:10; Have fun then!"],
 			["Hey, you wanna know when the next update comes out? _pause:25;\nHell if i know! But there are a lot of ways how you can participate. ","Like, by testing everything we have here and telling us about errors you meet. _pause:10; \nOr you can suggest to add something to the Underground.","Or join our team if you are an artist, programmer, musician, game designer...","Well, we accept literally anyone who would like to participate"],
