@@ -47,11 +47,11 @@ current_choice = 0
 // current library in use
 library = {}
 
-dialogue_box_width = 295
-dialogue_box_height = 80
+dialogue_box_width = 305
+dialogue_box_height = 85
 
-border_x = 8;
-border_y = 8;
+border_x = 6
+border_y = 6
 
 dialogue_width = dialogue_box_width - border_x*2;
 dialogue_height = dialogue_box_height - border_y*2;
@@ -114,6 +114,7 @@ shake_intensity = 1
 shake_x = 0
 shake_y = 0
 shake_text = 0
+text_x = 0
 
 skip_spd = 5 //That kinda thing instead of instaskipping
 can_skip = 1

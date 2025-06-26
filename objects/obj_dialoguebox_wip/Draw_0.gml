@@ -221,7 +221,7 @@ for(i=0; i<draw_chara; i++) {
 	
 	text_x += string_width(shake_text)
 		
-	if shake_text = " "
+	if shake_text = " " and i > 3
 	{ 
 	if last_space[text_y_temp] != i 
 	{
